@@ -37,6 +37,6 @@ public class ScoreServiceImpl implements ScoreService {
     }
 
     private Score modelMapper(ScoreModel scoreModel) {
-            return modelMapper.map(scoreModel, Score.class);
+        return modelMapper.map(scoreModel, Score.class);
     }
 }
